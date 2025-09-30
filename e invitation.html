@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited!</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #28b61b;
+            color: #1c0202;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .invitation-card {
+            background-color: #d185b6;
+            border: 2px solid #12445b;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(59, 122, 164, 0.1);
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+ position: relative;
+        }
+
+        .invitation-card h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #8c5e40;
+            margin-bottom: 10px;
+        }
+
+        .invitation-card h2 {
+            font-size: 1.5em;
+            color: #a47c61;
+            margin-bottom: 25px;
+        }
+
+        .details p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        
+        .details strong {
+            color: #6a442a;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #8c5e40;
+            color: #a33a3a;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+  }
+
+        .rsvp-button:hover {
+            background-color: #6a442a;
+        }
+
+        /* Optional: add a subtle floral design */
+        .design {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://i.ibb.co/L5Sg4xY/floral-corner.png');
+            background-size: cover;
+            opacity: 0.7;
+        }
+
+        .design.bottom-right {
+            top: auto;
+            left: auto;
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(180deg);
+        }
+
+        /* Media queries for smaller screen*/
+        @media (max-width: 600px) {
+            .invitation-card {
+                padding: 20px;
+            }
+
+            .invitation-card h1 {
+                font-size: 2em;
+            }
+
+            .invitation-card h2 {
+                font-size: 1.2em;
+            }
+   }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <div class="design top-left"></div>
+        <div class="design bottom-right"></div>
+
+        <h1>You're Invited!</h1>
+        <h2>Engagement Cermony</h2>
+
+        <div class="details">
+            <p><strong>To:</strong> NIKHIL SHARMA </p>
+            <p><strong>Join us in celebrating</strong> SANGAM YADAV special day!</p>
+            
+            <p><strong>When:</strong><br> FRIDAY, November 20th, 2025<br> 5:30 PM onwards </p>
+            
+            <p><strong>Where:</strong><br> Leela Galaxy <br>NH26 GHANTA GHAR, GOARKHPUR, UTTAR PRADESH</p>
+            
+            <p>We'd be honored to have you there to share in the joy, laughter, and cake!</p>
+        </div>
+
+
+        <p><small>For more information, please contact NISHANT at 7054789021.</small></p>
+    </div>
+
+</body>
+</html>
